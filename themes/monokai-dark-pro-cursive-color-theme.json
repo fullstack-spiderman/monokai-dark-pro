@@ -1,41 +1,162 @@
 {
-	"name": "monokai-devoid-cursive",
+	"name": "monokai-dark-pro",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#1e1e1e",
-		"editor.foreground": "#eeffff",
+		"editor.background": "#1E1E1E",
+		"editor.foreground": "#9E9E9E",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb"
 	},
 	"tokenColors": [
 		{
-			"name": "Comment",
+			"name": "Keywords",
 			"scope": [
-				"comment",
-				"punctuation.definition.comment"
+				"storage.type.class",
+				"support.type",
+				"meta.function-call",
+				"meta.function.parameters",
+				"keyword.operator.logical",
+				"support.type.exception",
+				"storage.type.js",
+				"variable.parameter.function.language.special.self.python",
 			],
 			"settings": {
+				"foreground": "#E64064",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Exception",
+			"scope": [
+				"support.type.exception",
+				"support.class.component.open",
+				"support.class.component.close"
+			],
+			"settings": {
+				"foreground": "#F4D03F",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "JSX-Component_Name",
+			"scope": [
+				"support.class.component.open",
+				"support.class.component.close",
+			],
+			"settings": {
+				"foreground": "#61DAFB",
+			}
+		},
+		{
+			"name": "Docstring",
+			"scope": [
+				"string.quoted.docstring.multi",
+			],
+			"settings": {
+				"foreground": "#546E7A",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Imports",
+			"scope": [
+				"keyword.control.import",
+				"keyword.control.module"
+			],
+			"settings": {
+				"foreground": "#00897B",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "f-String",
+			"scope": [
+				"meta.fstring",
+				"string.interpolated",
+				"variable.parameter.function.language.special.self",
+				"meta.function-call.generic.python"
+			],
+			"settings": {
+				"foreground": "#58D68D",
 				"fontStyle": "italic",
-				"foreground": "#546E7A"
+			}
+		},
+		{
+			"name": "params",
+			"scope": [
+				"variable.parameter.function.language",
+				"meta.function.parameters",
+				"meta.attribute"
+
+			],
+			"settings": {
+				"foreground": "#04c0ad",
+				"fontStyle": "",
+
+			}
+		},
+		{
+			"name": "arguments",
+			"scope": [
+				"meta.function-call.generic",
+				"meta.function-call.arguments"
+			],
+			"settings": {
+				"foreground": "#9e83dd",
+				"fontStyle": "",
+
 			}
 		},
 		{
 			"name": "Variables",
 			"scope": [
 				"variable",
-				"string constant.other.placeholder"
+				"string.constant.other.placeholder",
+				"meta.definition.variable.name"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#f5f5f5"
+			}
+		},
+		{
+			"name": "JSX-Nested",
+			"scope": [
+				"JSXNested",
+				"storage.type.function.arrow",
+
+			],
+			"settings": {
+				"foreground": "#c9c9c9"
+			}
+		},
+		{
+			"name": "JSX-Attrs",
+			"scope": [
+				"variable.other.readwrite"
+			],
+			"settings": {
+				"foreground": "#e2e2e2"
+			}
+		},
+		{
+			"name": "JSX-Tags",
+			"scope": [
+				"support.class.component",
+				"meta.embedded.expression"
+
+			],
+			"settings": {
+				"foreground": "#61DAFB"
 			}
 		},
 		{
 			"name": "Colors",
 			"scope": [
-				"constant.other.color"
+				"constant.other.color",
+				"constant.other.caps"
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#e2e2e2",
 			}
 		},
 		{
@@ -46,17 +167,6 @@
 			],
 			"settings": {
 				"foreground": "#FF5370"
-			}
-		},
-		{
-			"name": "Class",
-			"scope": [
-				"storage.type.class"
-			],
-			"settings": {
-				// "foreground": "#c72447",
-				"foreground": "#c03d3d",
-				"fontStyle": "italic"
 			}
 		},
 		{
@@ -84,10 +194,10 @@
 			"scope": [
 				"entity.name.tag",
 				"meta.tag.sgml",
-				"markup.deleted.git_gutter"
+				"markup.deleted.git_gutter",
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#F06292"
 			}
 		},
 		{

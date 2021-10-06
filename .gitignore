@@ -2,3 +2,5 @@ node_modules
 *.vsix
 .vscode
 test_code/
+__pycache__/
+*.pyc

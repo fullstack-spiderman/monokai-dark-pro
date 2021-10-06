@@ -26,17 +26,31 @@
 		"color": "#09131b",
 		"theme": "dark"
 	},
+	"keywords": [
+		"Dark Theme",
+		"VSCode Dark",
+		"VSCode Dark Theme",
+		"Monokai",
+		"monokai dark pro",
+		"monokai",
+		"one dark pro",
+		"one dark",
+		"colorful",
+		"fruits",
+		"colors",
+		"devoid",
+		"Full Stack Spider",
+		"fullstackspider",
+		"full stack spider",
+		"Arjun Theme",
+		"Arjun Umathanu's Theme"
+	],
 	"contributes": {
 		"themes": [
 			{
-				"label": "monokai-dark-pro",
+				"label": "monokai-dark-pro-colorful",
 				"uiTheme": "vs-dark",
 				"path": "./themes/monokai-dark-pro-cursive-color-theme.json"
-			},
-			{
-				"label": "monokai-darker-pro",
-				"uiTheme": "vs-dark",
-				"path": "./themes/monokai-devoid-cursive-color-theme-darker.json"
 			}
 		]
 	}
