@@ -1,0 +1,26 @@
+{
+	"name": "monokai-dark-pro",
+	"displayName": "Monokai Dark Pro",
+	"description": "Hi I'm Arjun Umathanu. I created this Monokai Dark Pro Theme with Italics and Cursive Support. Use any italics enabed fonts and enable font-ligatures for better visual experience.",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.60.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "monokai-dark-cursive",
+				"uiTheme": "vs-dark",
+				"path": "./themes/monokai-devoid-cursive-color-theme.json"
+			},
+			{
+				"label": "monokai-devoid-cursive",
+				"uiTheme": "vs-dark",
+				"path": "./themes/monokai-devoid-cursive-color-theme.json"
+			}
+		]
+	}
+}
