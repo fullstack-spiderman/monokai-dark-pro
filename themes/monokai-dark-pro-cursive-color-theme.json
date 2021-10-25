@@ -61,12 +61,12 @@
 				"meta.function.parameters.js"
 			],
 			"settings": {
-				"foreground": "#22ffda",
+				"foreground": "#7bff00",
 				"fontStyle": "bold"
 			}
 		},
 		{
-			"name": "JSX-Component_Name",
+			"name": "JSX-Component_Brackets",
 			"scope": [
 				"support.class.component.open",
 				"support.class.component.close",
@@ -219,7 +219,7 @@
 				"punctuation",
 				"meta.tag",
 				"punctuation.definition.tag",
-				"punctuation.separator.inheritance.php",
+				"punctuation.separator.inheritance",
 				"punctuation.definition.tag.html",
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
@@ -240,13 +240,15 @@
 
 				"support.class.component.open.jsx",
 				"entity.name.tag.open.jsx",
+				"entity.name.tag.close.jsx",
+				"support.class.component.close.jsx",
 				"meta.tag.jsx",
 				"JSXAttrs",
 				"meta.tag.jsx",
 				"meta.function.arrow.js",
 			],
 			"settings": {
-				"foreground": "#df138a"
+				"foreground": "#c02f88"
 			}
 		},
 		{
