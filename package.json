@@ -1,14 +1,14 @@
 {
 	"name": "monokai-dark-pro",
 	"displayName": "Monokai Dark Pro",
-	"description": "Hi I'm Arjun Umathanu. I created this Monokai Dark Pro theme with Italics and Cursive Support. Use any italics enabed fonts and enable font-ligatures for better visual experience.",
+	"description": "Hi I'm Arjun Umathanu. I created this Monokai Dark Pro theme with Italics and Cursive Support. Use any font that support italics and font-ligatures for better visual experience.",
 	"publisher": "ArjunUmathanu",
 	"author": {
 		"name": "Arjun Umathanu",
 		"email": "arjun.umathanu@gmail.com",
 		"url": "https://twitter.com/arjunkayalmoni"
 	},
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"engines": {
 		"vscode": "^1.60.0"
 	},
@@ -32,6 +32,8 @@
 		"VSCode Dark Theme",
 		"Monokai",
 		"monokai dark pro",
+		"monokai dark pro colorful",
+		"monokai dark pro colourful",
 		"monokai",
 		"one dark pro",
 		"one dark",
@@ -42,8 +44,12 @@
 		"Full Stack Spider",
 		"fullstackspider",
 		"full stack spider",
+		"Full Stack Spiderman",
+		"fullstackspiderman",
+		"full stack spiderman",
 		"Arjun Theme",
-		"Arjun Umathanu's Theme"
+		"Arjun Umathanu's Theme",
+		"arjun kayalmoni"
 	],
 	"contributes": {
 		"themes": [

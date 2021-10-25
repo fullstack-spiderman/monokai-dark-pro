@@ -4,3 +4,4 @@ node_modules
 test_code/
 __pycache__/
 *.pyc
+script.sh

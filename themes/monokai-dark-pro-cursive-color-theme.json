@@ -5,14 +5,24 @@
 		"editor.background": "#1E1E1E",
 		"editor.foreground": "#9E9E9E",
 		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"sideBarTitle.foreground": "#bbbbbb",
+		"statusBar.foreground": "#1b9ec7",
+		"statusBar.background": "#1A1A1A",
+		"statusBar.noFolderBackground": "#212121",
+		"statusBar.debuggingBackground": "#263238",
 	},
+	"workBenchColors": [
+
+	],
 	"tokenColors": [
 		{
 			"name": "Keywords",
 			"scope": [
 				"storage.type.class",
 				"support.type",
+				"keyword.control.flow",
+				"storage.type.function.js",
+				"storage.type.extends",
 				"meta.function-call",
 				"meta.function.parameters",
 				"keyword.operator.logical",
@@ -39,6 +49,23 @@
 			}
 		},
 		{
+			"name": "SpreadjsKeyword",
+			"scope": [
+				"keyword.operator.spread.js",
+				"meta.property.object.js",
+				"variable.other.property.js",
+				"meta.property.object.js",
+				"meta.function.parameters.js",
+				"meta.function.arrow.js",
+				"variable.other.readwrite.shorthandpropertyname.js",
+				"meta.function.parameters.js"
+			],
+			"settings": {
+				"foreground": "#22ffda",
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"name": "JSX-Component_Name",
 			"scope": [
 				"support.class.component.open",
@@ -59,6 +86,17 @@
 			}
 		},
 		{
+			"name": "Comments",
+			"scope": [
+				"comment.line.number-sign",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#505050",
+				"fontStyle": "italic"
+			}
+		},
+		{
 			"name": "Imports",
 			"scope": [
 				"keyword.control.import",
@@ -75,10 +113,13 @@
 				"meta.fstring",
 				"string.interpolated",
 				"variable.parameter.function.language.special.self",
-				"meta.function-call.generic.python"
+				"meta.function-call.generic.python",
+
+				"entity.name.function.decorator.python",
+				"meta.function.decorator.python"
 			],
 			"settings": {
-				"foreground": "#58D68D",
+				"foreground": "#1EBE2C",
 				"fontStyle": "italic",
 			}
 		},
@@ -196,9 +237,16 @@
 				"entity.name.tag",
 				"meta.tag.sgml",
 				"markup.deleted.git_gutter",
+
+				"support.class.component.open.jsx",
+				"entity.name.tag.open.jsx",
+				"meta.tag.jsx",
+				"JSXAttrs",
+				"meta.tag.jsx",
+				"meta.function.arrow.js",
 			],
 			"settings": {
-				"foreground": "#F06292"
+				"foreground": "#df138a"
 			}
 		},
 		{
@@ -286,7 +334,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#1ebe2c"
 			}
 		},
 		{
@@ -446,7 +494,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#82AAFF"
+				"foreground": "#fdff82"
 			}
 		},
 		{
