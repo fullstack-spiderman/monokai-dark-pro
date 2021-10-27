@@ -89,7 +89,10 @@
 			"name": "Comments",
 			"scope": [
 				"comment.line.number-sign",
-				"punctuation.definition.comment"
+				"punctuation.definition.comment",
+				"comment.block.js",
+				"comment.line.double-slash.js",
+				"punctuation.definition.comment.js",
 			],
 			"settings": {
 				"foreground": "#505050",
