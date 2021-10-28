@@ -1,0 +1,6 @@
+ 6524* 10/26/2021 01:02  vsce package
+ 6525* 10/26/2021 01:04  code --install-extension monokai-dark-pro-0.0.3.vsix
+ 6531  10/26/2021 01:35  vsce login ArjunUmathanu
+ 6536  10/26/2021 01:37  vsce publish -p `cat .pat`
+
+ https://dev.azure.com/arjunumathanu/monokai-dark-pro-colorful-vscode-theme

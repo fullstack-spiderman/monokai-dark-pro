@@ -23,13 +23,15 @@
 				"keyword.control.flow",
 				"storage.type.function.js",
 				"storage.type.extends",
-				"meta.function-call",
 				"meta.function.parameters",
 				"keyword.operator.logical",
 				"support.type.exception",
 				"storage.type.js",
 				"variable.parameter.function.language.special.self.python",
-				"storage.type.function.python"
+				"storage.type.function.python",
+				"storage.type.function.async",
+				"support.type.python",
+				"meta.function.parameters.python"
 			],
 			"settings": {
 				"foreground": "#E64064",
@@ -70,6 +72,8 @@
 			"scope": [
 				"support.class.component.open",
 				"support.class.component.close",
+				"meta.function-call.generic.python",
+				"meta.function-call.python"
 			],
 			"settings": {
 				"foreground": "#61DAFB",
@@ -116,13 +120,11 @@
 				"meta.fstring",
 				"string.interpolated",
 				"variable.parameter.function.language.special.self",
-				"meta.function-call.generic.python",
-
 				"entity.name.function.decorator.python",
 				"meta.function.decorator.python"
 			],
 			"settings": {
-				"foreground": "#1EBE2C",
+				"foreground": "#bb96f7",
 				"fontStyle": "italic",
 			}
 		},
@@ -135,7 +137,8 @@
 
 			],
 			"settings": {
-				"foreground": "#04c0ad",
+				// "foreground": "#04c0ad",
+				"foreground": "#a8a8a3",
 				"fontStyle": "",
 
 			}
@@ -177,7 +180,8 @@
 		{
 			"name": "JSX-Attrs",
 			"scope": [
-				"variable.other.readwrite"
+				"variable.other.readwrite",
+				"source.python"
 			],
 			"settings": {
 				"foreground": "#e2e2e2"
@@ -314,7 +318,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#adeb51"
 			}
 		},
 		{
